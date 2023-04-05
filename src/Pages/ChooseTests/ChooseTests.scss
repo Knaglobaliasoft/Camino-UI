@@ -1,0 +1,133 @@
+.ChooseTests_main {
+    max-width: 820px;
+    margin: auto;
+    background-color: #483a46;
+    color: #fff;
+    padding: 50px;
+
+    @media (max-width: 768px) {
+        padding: 12px;
+    }
+
+    .header {
+        height: 100px;
+        padding: 0px 36px;
+        background: #ffffff;
+        border-bottom: 1px solid #d9d9d9;
+        border-radius: 20px 20px 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media (max-width: 425px) {
+            padding: 0px 10px !important;
+        }
+
+        h4 {
+            font-size: 24px;
+            color: #483a46;
+            font-weight: 700;
+            font-family: "commonsBold";
+            margin: 0;
+
+            @media (max-width: 425px) {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .test_cards {
+        background-color: #f2f1f6;
+        padding: 50px 48px 120px;
+        border-radius: 0px 0px 20px 20px;
+
+        @media (max-width: 768px) {
+            padding: 8px;
+        }
+
+        .test_card_theme {
+            margin-bottom: 20px;
+            padding: 30px 22px;
+            background: #ffffff;
+            border: 1px solid #d9d9d9;
+            border-radius: 10px;
+
+            @media (max-width: 768px) {
+                padding: 20px;
+            }
+
+            .test_content {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+
+                @media (max-width: 576px) {
+                    display: block;
+                }
+
+                .test_left {
+                    display: flex;
+                    gap: 15px;
+                    color: #483a46;
+
+                    h4 {
+                        font-size: 24px;
+                        font-weight: 700;
+                        margin: 0;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        margin: 0;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.add_assessment {
+    background-color: #8e576f;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "commonsBold";
+    border: none;
+    color: #ffffff;
+    width: 219px;
+    height: 56px;
+}
+
+.test_card_active {
+    background-color: #e2f4e2 !important;
+}
+
+.select_btn {
+    @media (max-width: 576px) {
+        margin-top: 20px;
+    }
+}
+
+.test_btn_theme {
+    width: 130px;
+    height: 51px;
+    background-color: #f2f1f6;
+    border: 1px solid #d9d9d9;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "commonsBold";
+}
+
+.test_btn_active {
+    width: 130px;
+    height: 51px;
+    background-color: #3d963e;
+    border: 1px solid #d9d9d9;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "commonsBold";
+}

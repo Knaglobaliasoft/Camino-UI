@@ -1,0 +1,35 @@
+.ready-main {
+    .restart-test {
+        text-align: end !important;
+        .patient-btn {
+            background-color: #8e576f !important;
+            color: #fff !important;
+            @media (max-width: 768px) {
+                width: 110px;
+                font-size: 15px;
+            }
+        }
+        .logo {
+            @media (max-width: 576px) {
+                left: 14px;
+                transform: none;
+                right: initial;
+                top: 35%;
+            }
+        }
+    }
+    .record {
+        color: #e4593f;
+        font-size: 60px;
+        font-family: "commonsBold";
+        text-align: center;
+        margin-top: 52px;
+        margin-bottom: 60px;
+        padding: 0 16px;
+        @media (max-width: 576px) {
+            margin-top: 32px;
+            margin-bottom: 40px;
+            font-size: 36px;
+        }
+    }
+}

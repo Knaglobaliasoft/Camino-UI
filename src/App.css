@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "commonsThin";
+  src: url("./Assets/Fonts/TT\ Commons\ Thin.otf");
+}
+@font-face {
+  font-family: "commonsRegular";
+  src: url("./Assets/Fonts/TT\ Commons\ Regular.otf");
+}
+@font-face {
+  font-family: "commonsItalic";
+  src: url("./Assets/Fonts/TT\ Commons\ Italic.otf");
+}
+@font-face {
+  font-family: "commonsMedium";
+  src: url("./Assets/Fonts/TT\ Commons\ Medium.otf");
+}
+@font-face {
+  font-family: "commonsBold";
+  src: url("./Assets/Fonts/TT\ Commons\ Bold.otf");
+}
+@font-face {
+  font-family: "commonsExtraBold";
+  src: url("./Assets/Fonts/TT\ Commons\ ExtraBold.otf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}

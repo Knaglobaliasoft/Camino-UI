@@ -1,0 +1,195 @@
+.assessment_main {
+    max-width: 820px;
+    margin: auto;
+    background-color: #483a46;
+    color: #fff;
+    padding: 24px 29px 110px;
+
+    @media (max-width: 768px) {
+        padding: 24px 20px;
+    }
+
+    .close_btn {
+        text-align: end;
+
+        button {
+            width: 183px;
+            height: 51px;
+            background: #f2f1f6;
+            border: 1px solid #d9d9d9;
+            border-radius: 30px;
+            font-size: 17px;
+            font-weight: 700;
+            font-family: "commonsBold";
+            color: #483a46;
+        }
+    }
+
+    .Assessment_content {
+        .title {
+            padding-top: 86px;
+
+            h2 {
+                font-size: 60px;
+                font-family: "commonsBold";
+                font-weight: 700;
+                color: #fff;
+                margin: 0;
+
+                @media (max-width: 425px) {
+                    font-size: 50px;
+                }
+            }
+
+            p {
+                padding-top: 8px;
+                line-height: 30px;
+                font-family: "commonsRegular";
+                font-size: 24px;
+                font-weight: 400;
+                width: 460px;
+                margin: 0;
+
+                @media (max-width: 768px) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .assessment_card {
+        margin-top: 60px;
+
+        .card_theme {
+            margin-bottom: 18px;
+            border: 1px solid #d9d9d9;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            color: #483a46;
+            padding: 30px 20px;
+            background-color: #fff;
+            z-index: 3;
+            position: relative;
+
+            .card_parts {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                align-items: center;
+
+                @media (max-width: 576px) {
+                    display: block;
+                }
+            }
+            .card_content {
+                h4 {
+                    font-family: "commonsBold";
+                    font-size: 24px;
+                    font-weight: 700;
+                    margin: 0;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-family: "commonsRegular";
+                    font-weight: 400;
+                    margin: 0;
+                }
+            }
+
+            .Assessment_btn_theme {
+                @media (max-width: 576px) {
+                    margin-top: 20px;
+                }
+
+                button {
+                    width: 177px;
+                    font-family: "commonsBold";
+                    height: 51px;
+                    background-color: #8e576f;
+                    font-size: 17px;
+                    font-weight: 700;
+                    color: #fff;
+                    border-radius: 30px;
+                    border: none;
+                }
+                .anothet-test {
+                    background: #f2f1f6;
+                    border: 1px solid #cbcbcb;
+                    color: #483a46;
+                }
+            }
+            .complate-btn {
+                button {
+                    background: #3d963e;
+                }
+            }
+            .add_data {
+                margin-top: 14px;
+                background-color: #f2f1f6;
+                padding: 18px;
+                border: 1px solid #d9d9d9;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 89px;
+
+                .add_image {
+                    display: flex;
+                    align-items: center;
+                    gap: 13px;
+                    h4 {
+                        font-size: 24px;
+                        font-family: "commonsBold";
+                        color: #483a46;
+                    }
+                }
+
+                .add_btn {
+                    gap: 16px;
+                    display: flex;
+
+                    .start_theme {
+                        width: 114px;
+                        height: 51px;
+                        background-color: #8e576f;
+                        border-radius: 30px;
+                        color: #ffffff;
+                        border: none;
+                        font-size: 17px;
+                        font-weight: 700;
+                        font-family: "commonsBold";
+                    }
+                    .complate {
+                        background-color: #3d963e;
+                    }
+
+                    .remove_theme {
+                        width: 114px;
+                        height: 51px;
+                        background: #f2f1f6;
+                        border: 1px solid #d9d9d9 !important;
+                        border-radius: 30px;
+                        color: #483a46;
+                        font-size: 17px;
+                        font-weight: 700;
+                        font-family: "commonsBold";
+                    }
+                }
+            }
+        }
+
+        .patients {
+            background: #ffffff;
+            border: 1px solid #d9d9d9;
+            border-radius: 10px;
+            height: 50px;
+            position: absolute;
+            width: 98%;
+            bottom: -7px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}

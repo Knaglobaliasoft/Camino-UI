@@ -1,0 +1,70 @@
+.intro-main {
+    .setup-data {
+        h1 {
+            font-size: 60px;
+            color: #483a46;
+            font-family: "commonsBold";
+            text-align: center;
+            max-width: 390px;
+            margin: auto;
+            margin-top: 52px;
+            margin-bottom: 60px;
+            padding: 0 16px;
+            @media (max-width: 576px) {
+                margin-top: 32px;
+                margin-bottom: 40px;
+                font-size: 36px;
+            }
+        }
+        .intro-steps {
+            padding: 0 14px;
+            h2 {
+                font-size: 24px;
+                text-align: center;
+                font-family: "commonsBold";
+                margin-bottom: 0;
+                @media (max-width: 576px) {
+                    font-size: 18px;
+                }
+            }
+            p {
+                font-size: 24px;
+                text-align: center;
+                max-width: 530px;
+                margin: auto;
+                margin-bottom: 30px;
+                @media (max-width: 576px) {
+                    font-size: 18px;
+                }
+            }
+            .marker {
+                max-width: 470px;
+            }
+        }
+        .setup-btn {
+            text-align: center;
+            padding-top: 79px;
+            padding-bottom: 113px;
+            @media (max-width: 576px) {
+                padding-top: 60px;
+                padding-bottom: 73px;
+            }
+            button {
+                width: 400px;
+                height: 125px;
+                background: #8e576f;
+                font-family: "commonsBold";
+                color: #fff;
+                font-size: 30px;
+                margin: auto;
+                border-radius: 99px;
+                border: 0;
+                @media (max-width: 576px) {
+                    width: 200px;
+                    height: 65px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

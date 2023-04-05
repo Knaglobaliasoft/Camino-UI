@@ -1,0 +1,74 @@
+.tinetti-main {
+    .main-patient {
+        text-align: end;
+    }
+    .setup-data {
+        h1 {
+            font-size: 60px;
+            color: #483a46;
+            font-family: "commonsBold";
+            text-align: center;
+            margin-top: 52px;
+            margin-bottom: 60px;
+            @media (max-width: 576px) {
+                margin-top: 32px;
+                margin-bottom: 40px;
+                font-size: 36px;
+            }
+        }
+        .humaans {
+            text-align: center;
+            img {
+                @media (max-width: 576px) {
+                    width: 50%;
+                }
+            }
+        }
+        p {
+            font-size: 24px;
+            font-family: "commonsRegular";
+            max-width: 473px;
+            margin: auto;
+            text-align: center;
+            margin-top: 67px;
+            @media (max-width: 576px) {
+                padding: 0 14px;
+                font-size: 18px;
+                margin-top: 40px;
+            }
+        }
+        .perfomed {
+            max-width: 443px;
+            span {
+                display: block;
+                margin-top: 24px;
+            }
+        }
+
+        .setup-btn {
+            text-align: center;
+            padding-top: 107px;
+            padding-bottom: 113px;
+            @media (max-width: 576px) {
+                padding-top: 60px;
+                padding-bottom: 73px;
+            }
+            button {
+                width: 400px;
+                height: 125px;
+                background: #8e576f;
+                font-family: "commonsBold";
+                color: #fff;
+                font-size: 30px;
+                margin: auto;
+                border-radius: 99px;
+                border: 0;
+                @media (max-width: 576px) {
+                    width: 190px;
+                    height: 65px;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}

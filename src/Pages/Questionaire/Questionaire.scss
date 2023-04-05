@@ -1,0 +1,262 @@
+.questionaire-main {
+    .main-patient {
+        .questionaire {
+            text-align: end;
+            .logo {
+                @media (max-width: 576px) {
+                    left: 70px;
+                    transform: translate(-50%, -50%);
+                    top: 50%;
+                    right: initial;
+                }
+            }
+        }
+    }
+    .questionaire-data {
+        padding: 0 14px;
+        padding-bottom: 220px;
+        background: #f2f1f6;
+        border-radius: 0 0 20px 20px;
+        min-height: 800px;
+        @media (max-width: 576px) {
+            padding-bottom: 170px;
+            min-height: 660px;
+        }
+        h1 {
+            font-size: 40px;
+            color: #483a46;
+            font-family: "commonsBold";
+            text-align: center;
+            padding-top: 106px;
+            @media (max-width: 576px) {
+                font-size: 26px;
+            }
+        }
+        p {
+            max-width: 370px;
+            margin: auto;
+            text-align: center;
+            color: #483a46;
+            font-size: 24px;
+            font-family: "commonsRegular";
+            margin-top: 24px;
+            @media (max-width: 576px) {
+                font-size: 16px;
+            }
+        }
+        button {
+            width: 211px;
+            height: 51px;
+            background: #8e576f;
+            border: 1px solid #d9d9d9;
+            border-radius: 30px;
+            font-family: "commonsBold";
+            color: #fff;
+            margin-top: 30px;
+            font-size: 17px;
+        }
+    }
+}
+.questionaire-id {
+    .new-patient-data {
+        padding-top: 99px !important;
+        padding-bottom: 360px !important;
+        @media (max-width: 576px) {
+            padding-bottom: 230px !important;
+        }
+        .form-main {
+            margin-top: 0 !important;
+        }
+        .questionaire-btn {
+            width: 211px;
+            height: 51px;
+            background: #8e576f;
+            opacity: 0.6;
+            font-family: "commonsBold";
+            color: #fff;
+            border: 1px solid #d9d9d9;
+            border-radius: 30px;
+            margin-top: 50px;
+        }
+        .start-btn {
+            opacity: 1;
+        }
+    }
+}
+.questionaire-close {
+    .bg-lights {
+        padding: 0 14px;
+        h1 {
+            font-size: 40px;
+            font-family: "commonsBold";
+            color: #483a46;
+            text-align: center;
+            max-width: 398px;
+            margin: auto;
+            padding-top: 126px;
+            @media (max-width: 576px) {
+                font-size: 26px;
+            }
+        }
+        p {
+            color: #483a46;
+            font-size: 24px;
+            font-family: "commonsRegular";
+            text-align: center;
+            margin-top: 20px;
+            @media (max-width: 576px) {
+                font-size: 16px;
+            }
+        }
+        .btn-data {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 23px;
+            padding: 120px 0;
+            .signup-btn {
+                background: #8e576f;
+                color: #fff;
+            }
+            button {
+                width: 400px;
+                height: 125px;
+                border-radius: 99px;
+                font-size: 30px;
+                border: 0;
+                color: #483a46;
+                font-family: "commonsBold";
+                @media (max-width: 576px) {
+                    width: 220px;
+                    height: 70px;
+                    font-size: 18px;
+                }
+            }
+            .login-btn {
+                border: 1.272px solid #d9d9d9;
+            }
+        }
+    }
+}
+.thanks-main {
+    .questionaire-data {
+        padding-bottom: 460px !important;
+    }
+    .questionaire-header {
+        .new-btn {
+            display: none;
+        }
+    }
+}
+.question-patient {
+    .questionaire-header {
+        justify-content: flex-end;
+        @media (max-width: 576px) {
+            justify-content: space-between;
+        }
+        .home-btn {
+            display: none !important;
+        }
+        .logo {
+            @media (max-width: 576px) {
+                position: initial;
+                transform: none;
+            }
+        }
+    }
+}
+.question-three {
+    .questionaire-data {
+        background: #f2f1f6;
+        padding: 0 14px;
+        padding-bottom: 220px;
+        border-radius: 0 0 20px 20px;
+        min-height: 800px;
+        @media (max-width: 576px) {
+            padding-bottom: 180px;
+            min-height: 660px;
+        }
+        h1 {
+            font-size: 30px;
+            color: #483a46;
+            font-family: "commonsBold";
+            text-align: center;
+            max-width: 420px;
+            margin: auto;
+            padding-top: 54px;
+            @media (max-width: 576px) {
+                font-size: 24px;
+            }
+        }
+        .quarter {
+            max-width: 430px;
+        }
+        .get-quarter {
+            max-width: 390px;
+        }
+        .get-quarter2 {
+            max-width: 330px;
+        }
+        .short-data {
+            font-size: 40px;
+            @media (max-width: 576px) {
+                font-size: 30px;
+            }
+        }
+
+        .short-para {
+            color: #483a46;
+            font-size: 24px;
+            font-family: "commonsRegular";
+            max-width: 380px;
+            margin: auto;
+            text-align: center;
+            margin-top: 50px;
+            @media (max-width: 576px) {
+                font-size: 18px;
+            }
+        }
+    }
+    .experience {
+        text-align: center;
+        margin-top: 56px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 17px;
+        .select-btn {
+            background: #fa7961;
+            color: #fff;
+            font-family: "commonsMedium";
+        }
+        button {
+            background: #ffffff;
+            border: 1px solid #d9d9d9;
+            border-radius: 10px;
+            color: #483a46;
+            font-family: "commonsRegular";
+            width: 375px;
+            padding: 13px 10px;
+            font-size: 20px;
+            @media (max-width: 576px) {
+                width: 255px;
+                font-size: 16px;
+            }
+        }
+    }
+    .next-btn {
+        width: 154px;
+        height: 51px;
+        background: #8e576f;
+        opacity: 0.6;
+        font-family: "commonsBold";
+        color: #fff;
+        border: 1px solid #d9d9d9;
+        border-radius: 30px;
+        margin-top: 44px;
+    }
+    .select-btn {
+        opacity: 1;
+    }
+}
